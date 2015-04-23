@@ -1,0 +1,83 @@
+@import "compass/reset";
+
+@import "style";
+@import "icon";
+@import "header";
+@import "compass/typography/text/replacement";
+
+.page-section {}
+
+.relative {
+  position: relative;
+}
+
+#header {
+  height: 544px;
+  background: $primary-color;
+
+  .absolute {
+    position: absolute;
+    top: 0; left: 0;
+  }
+
+  .opacity-bg {
+    background: rgba(255,255,255,0.5);
+    color: #272727;
+  }
+
+  .background-image {
+    @extend .absolute;
+    z-index: 1;
+    background: url("../images/header/bg-header.jpg");
+    width: 1170px;
+    height: 379px;
+  }
+
+  .section-body {
+    @extend .absolute;
+    z-index: 2;
+    width: 100%;
+
+    .wrap3 {
+      width: 706px;
+      margin: 0 auto;
+    }
+
+    .dot-group {
+      text-align: center;
+      margin: 15px 0 26px 0;
+    }
+
+    .detail-header {
+      font-size: 37px;
+      height: 59px;
+      width: 224px;
+      padding: 12px 15px 12px 17px;
+    }
+
+    .detail-text {
+      width: 456px;
+      margin-top: 7px;
+      font-size: 30px;
+      line-height: 26px;
+      border-radius: 6px;
+      font-weight: bold;
+      padding: 11px 20px 13px 20px;
+      font-family: "TH K2D July8";
+    }
+
+    .find-place-block {
+      margin-top: 30px;
+      height: 213px - 30px;
+      background: white;
+    }
+
+    .text1 {
+      color: white;
+      font-size: 45px;
+      font-family: "TH K2D July8";
+      line-height: 68px;
+      font-weight: bold;
+    }
+  }
+}

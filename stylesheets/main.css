@@ -1,0 +1,305 @@
+/* line 5, ../../../../RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 8, ../sass/style.scss */
+div, body, section {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: cocogoose;
+}
+
+/* line 13, ../sass/style.scss */
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+/* line 18, ../sass/style.scss */
+.wrap {
+  width: 880px;
+  margin: 0 auto;
+}
+
+/* line 23, ../sass/style.scss */
+.btn {
+  display: inline-block;
+  text-align: center;
+  font-size: 11px;
+  line-height: 11px;
+  font-family: cocogoose;
+  cursor: pointer;
+  padding: 8px 16px;
+  background: #1957a4;
+  border-radius: 2px;
+  color: white;
+  font-weight: normal;
+}
+
+/* line 37, ../sass/style.scss */
+.btn.btn-white {
+  color: black;
+  background: white;
+}
+
+/* line 1, ../sass/icon.scss */
+.icon-social {
+  background: url("../images/icon/social.png") no-repeat;
+  width: 16px;
+  height: 16px;
+}
+
+/* line 7, ../sass/icon.scss */
+.icon-social.icon-facebook {
+  background-position: 0 0;
+}
+
+/* line 11, ../sass/icon.scss */
+.icon-social.icon-twitter {
+  background-position: -20px 0;
+}
+
+/* line 15, ../sass/icon.scss */
+.icon-social.icon-gplus {
+  background-position: -40px 0;
+}
+
+/* line 19, ../sass/icon.scss */
+.icon-social.icon-rss {
+  background-position: -59px 0;
+}
+
+/* line 23, ../sass/icon.scss */
+.icon-social.icon-pinterest {
+  background-position: -79px 0;
+}
+
+/* line 27, ../sass/icon.scss */
+.icon-dot {
+  background: url("../images/icon/dot.png") no-repeat;
+  width: 11px;
+  height: 11px;
+  cursor: pointer;
+}
+
+/* line 33, ../sass/icon.scss */
+.icon-dot {
+  background-position: 0 0;
+  display: inline-block;
+}
+
+/* line 37, ../sass/icon.scss */
+.icon-dot.active {
+  background-position: -13px 0;
+}
+
+/* line 3, ../sass/header.scss */
+.top {
+  background: white;
+  height: 67px;
+  padding-right: 93px;
+}
+/* line 8, ../sass/header.scss */
+.top .nav {
+  margin-top: 8px;
+}
+/* line 11, ../sass/header.scss */
+.top .nav .logo {
+  width: 71px;
+  height: 33px;
+  float: left;
+}
+/* line 16, ../sass/header.scss */
+.top .nav .menu-group {
+  float: right;
+  height: 32px;
+}
+/* line 20, ../sass/header.scss */
+.top .nav .menu-group .menu {
+  height: 32px;
+  line-height: 35px;
+  display: block;
+  float: left;
+  padding: 0 12px;
+  border-left: 1px solid #dbdbdb;
+  font-size: 15px;
+  font-weight: bolder;
+  color: #3d3d3d;
+  font-family: Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+/* line 33, ../sass/header.scss */
+.top .nav .menu-group .menu.first {
+  border: none;
+}
+/* line 36, ../sass/header.scss */
+.top .nav .menu-group .menu.last {
+  padding-right: 0;
+}
+/* line 42, ../sass/header.scss */
+.top .social {
+  height: 22px;
+}
+/* line 45, ../sass/header.scss */
+.top .social .btn-group {
+  margin-left: 10px;
+  float: right;
+}
+/* line 50, ../sass/header.scss */
+.top .social .btn {
+  height: 16px;
+  line-height: 16px;
+  display: inline-block;
+  margin: 3px 0;
+  text-align: center;
+  font-size: 10px;
+  border-radius: 1px;
+  font-family: Helvetica, sans-serif;
+  font-weight: bolder;
+  cursor: pointer;
+  padding: 0;
+}
+/* line 64, ../sass/header.scss */
+.top .social .user-btn {
+  background: #1957a4;
+  color: white;
+  width: 82px;
+}
+
+/* line 10, ../sass/main.scss */
+.relative {
+  position: relative;
+}
+
+/* line 14, ../sass/main.scss */
+#header {
+  height: 544px;
+  background: #1957a4;
+}
+/* line 18, ../sass/main.scss */
+#header .absolute, #header .background-image, #header .section-body {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* line 23, ../sass/main.scss */
+#header .opacity-bg {
+  background: rgba(255, 255, 255, 0.5);
+  color: #272727;
+}
+/* line 28, ../sass/main.scss */
+#header .background-image {
+  z-index: 1;
+  background: url("../images/header/bg-header.jpg");
+  width: 1170px;
+  height: 379px;
+}
+/* line 36, ../sass/main.scss */
+#header .section-body {
+  z-index: 2;
+  width: 100%;
+}
+/* line 41, ../sass/main.scss */
+#header .section-body .wrap3 {
+  width: 706px;
+  margin: 0 auto;
+}
+/* line 46, ../sass/main.scss */
+#header .section-body .dot-group {
+  text-align: center;
+  margin: 15px 0 26px 0;
+}
+/* line 51, ../sass/main.scss */
+#header .section-body .detail-header {
+  font-size: 37px;
+  height: 59px;
+  width: 224px;
+  padding: 12px 15px 12px 17px;
+}
+/* line 58, ../sass/main.scss */
+#header .section-body .detail-text {
+  width: 456px;
+  margin-top: 7px;
+  font-size: 30px;
+  line-height: 26px;
+  border-radius: 6px;
+  font-weight: bold;
+  padding: 11px 20px 13px 20px;
+  font-family: "TH K2D July8";
+}
+/* line 69, ../sass/main.scss */
+#header .section-body .find-place-block {
+  margin-top: 30px;
+  height: 183px;
+  background: white;
+}
+/* line 75, ../sass/main.scss */
+#header .section-body .text1 {
+  color: white;
+  font-size: 45px;
+  font-family: "TH K2D July8";
+  line-height: 68px;
+  font-weight: bold;
+}

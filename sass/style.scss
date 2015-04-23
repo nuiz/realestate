@@ -1,0 +1,40 @@
+@import "compass/css3/box-sizing";
+
+$font-default: cocogoose;
+$font-stack:    Helvetica, sans-serif;
+$container-width:    1170px;
+$primary-color: #1957a4;
+
+div, body, section {
+  @include box-sizing(border-box);
+  font-family: $font-default;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.wrap {
+  width: 880px;
+  margin: 0 auto;
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  font-size: 11px;
+  line-height: 11px;
+  font-family: $font-default;
+  cursor: pointer;
+  padding: 8px 16px;
+  background: $primary-color;
+  border-radius: 2px;
+  color: white;
+  font-weight: normal;
+}
+
+.btn.btn-white {
+  color: black;
+  background: white;
+}

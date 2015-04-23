@@ -1,0 +1,39 @@
+.icon-social {
+  background: url('../images/icon/social.png') no-repeat;
+  width: 16px;
+  height: 16px;
+}
+
+.icon-social.icon-facebook {
+  background-position: 0 0;
+}
+
+.icon-social.icon-twitter {
+  background-position: -20px 0;
+}
+
+.icon-social.icon-gplus {
+  background-position: -40px 0;
+}
+
+.icon-social.icon-rss {
+  background-position: -59px 0;
+}
+
+.icon-social.icon-pinterest {
+  background-position: -79px 0;
+}
+
+.icon-dot {
+  background: url('../images/icon/dot.png') no-repeat;
+  width: 11px;
+  height: 11px;
+  cursor: pointer;
+}
+.icon-dot {
+  background-position: 0 0;
+  display: inline-block;
+}
+.icon-dot.active {
+  background-position: -13px 0;
+}

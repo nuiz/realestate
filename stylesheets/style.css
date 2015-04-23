@@ -1,0 +1,40 @@
+/* line 8, ../sass/style.scss */
+div, body, section {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: cocogoose;
+}
+
+/* line 13, ../sass/style.scss */
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+/* line 18, ../sass/style.scss */
+.wrap {
+  width: 880px;
+  margin: 0 auto;
+}
+
+/* line 23, ../sass/style.scss */
+.btn {
+  display: inline-block;
+  text-align: center;
+  font-size: 11px;
+  line-height: 11px;
+  font-family: cocogoose;
+  cursor: pointer;
+  padding: 8px 16px;
+  background: #1957a4;
+  border-radius: 2px;
+  color: white;
+  font-weight: normal;
+}
+
+/* line 37, ../sass/style.scss */
+.btn.btn-white {
+  color: black;
+  background: white;
+}

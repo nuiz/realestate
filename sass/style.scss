@@ -1,13 +1,18 @@
 @import "compass/css3/box-sizing";
 
-$font-default: cocogoose;
-$font-stack:    Helvetica, sans-serif;
+$font-default: Helvetica, sans-serif;
+$font-head:    cocogoose;
+$font-style1:    "TH K2D July8";
 $container-width:    1170px;
 $primary-color: #1957a4;
 
 div, body, section {
   @include box-sizing(border-box);
+}
+
+html, body {
   font-family: $font-default;
+  height: 100%;
 }
 
 .container {
@@ -25,16 +30,21 @@ div, body, section {
   text-align: center;
   font-size: 11px;
   line-height: 11px;
-  font-family: $font-default;
+  font-family: $font-head;
   cursor: pointer;
   padding: 8px 16px;
   background: $primary-color;
   border-radius: 2px;
   color: white;
   font-weight: normal;
+  text-decoration: none;
 }
 
 .btn.btn-white {
   color: black;
   background: white;
+}
+
+.background-primary {
+  background: $primary-color;
 }

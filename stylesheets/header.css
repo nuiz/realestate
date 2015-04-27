@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$primary-color".
-        on line 65 of C:/xampp/htdocs/realestate/sass/header.scss
+        on line 66 of C:/xampp/htdocs/realestate/sass/header.scss
 
-60:       cursor: pointer;
-61:       padding: 0;
-62:     }
-63: 
-64:     .user-btn {
-65:       background: $primary-color;
-66:       color: white;
-67:       width: 82px;
-68:     }
-69:   }
-70: }
+61:       cursor: pointer;
+62:       padding: 0;
+63:     }
+64: 
+65:     .user-btn {
+66:       background: $primary-color;
+67:       color: white;
+68:       width: 82px;
+69:     }
+70:   }
+71: }
 
 Backtrace:
-C:/xampp/htdocs/realestate/sass/header.scss:65
+C:/xampp/htdocs/realestate/sass/header.scss:66
 C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/script/tree/node.rb:50:in `perform'
 C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:394:in `visit_prop'
@@ -91,4 +91,4 @@ C:/RailsInstaller/Ruby2.1.0/bin/compass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$primary-color\".\A         on line 65 of C:/xampp/htdocs/realestate/sass/header.scss\A \A 60:       cursor: pointer;\A 61:       padding: 0;\A 62:     }\A 63: \A 64:     .user-btn {\A 65:       background: $primary-color;\A 66:       color: white;\A 67:       width: 82px;\A 68:     }\A 69:   }\A 70: }"; }
+  content: "Error: Undefined variable: \"$primary-color\".\A         on line 66 of C:/xampp/htdocs/realestate/sass/header.scss\A \A 61:       cursor: pointer;\A 62:       padding: 0;\A 63:     }\A 64: \A 65:     .user-btn {\A 66:       background: $primary-color;\A 67:       color: white;\A 68:       width: 82px;\A 69:     }\A 70:   }\A 71: }"; }

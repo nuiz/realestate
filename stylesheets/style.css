@@ -1,24 +1,29 @@
-/* line 8, ../sass/style.scss */
+/* line 9, ../sass/style.scss */
 div, body, section {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  font-family: cocogoose;
 }
 
 /* line 13, ../sass/style.scss */
+html, body {
+  font-family: Helvetica, sans-serif;
+  height: 100%;
+}
+
+/* line 18, ../sass/style.scss */
 .container {
   width: 1170px;
   margin: 0 auto;
 }
 
-/* line 18, ../sass/style.scss */
+/* line 23, ../sass/style.scss */
 .wrap {
   width: 880px;
   margin: 0 auto;
 }
 
-/* line 23, ../sass/style.scss */
+/* line 28, ../sass/style.scss */
 .btn {
   display: inline-block;
   text-align: center;
@@ -31,10 +36,16 @@ div, body, section {
   border-radius: 2px;
   color: white;
   font-weight: normal;
+  text-decoration: none;
 }
 
-/* line 37, ../sass/style.scss */
+/* line 43, ../sass/style.scss */
 .btn.btn-white {
   color: black;
   background: white;
+}
+
+/* line 48, ../sass/style.scss */
+.background-primary {
+  background: #1957a4;
 }

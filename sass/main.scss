@@ -13,7 +13,6 @@
 
 #header {
   height: 544px;
-  background: $primary-color;
 
   .absolute {
     position: absolute;
@@ -34,6 +33,10 @@
   }
 
   .section-body {
+    height: 379px;
+  }
+
+  .section-body-content {
     @extend .absolute;
     z-index: 2;
     width: 100%;
@@ -53,6 +56,7 @@
       height: 59px;
       width: 224px;
       padding: 12px 15px 12px 17px;
+      font-family: $font-head;
     }
 
     .detail-text {
@@ -71,13 +75,142 @@
       height: 213px - 30px;
       background: white;
     }
+  }
 
-    .text1 {
-      color: white;
-      font-size: 45px;
-      font-family: "TH K2D July8";
-      line-height: 68px;
-      font-weight: bold;
+  .text1 {
+    color: white;
+    font-size: 45px;
+    font-family: "TH K2D July8";
+    line-height: 68px;
+    font-weight: bold;
+  }
+
+  .background-bottom {
+    height: 166px;
+    padding-top: 90px;
+  }
+}
+
+#highlight-property {
+  background: #f5f5f5;
+  height: 522px;
+
+  .section-title {
+    border-bottom: 1px solid #d3d3d3;
+    font-size: 23px;
+    padding: 40px 0 10px 0;
+    position: relative;
+    color: #55698b;
+    font-family: $font-head;
+  }
+
+  .section-title:after {
+    content: '';
+    width: 140px;
+    height: 7px;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    background: #55698b;
+  }
+
+  .property {
+    height: 282px;
+    width: 204px;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.16);
+    margin: 30px 0 0 20px;
+    background: white;
+    float: left;
+
+    .detail {
+      padding: 8px;
     }
+
+    .cover {
+      position: relative;
+      width: 188px;
+      height: 130px;
+    }
+
+    .cover-img {
+      object-fit: cover;
+      width: 188px;
+      height: 130px;
+    }
+
+    .property-type {
+      position: absolute;
+      top: 0;
+      left: 0;
+      font-size: 14px;
+      font-weight: bolder;
+      color: white;
+      padding: 5px 7px;
+
+      background: $primary-color;
+      font-family: $font-style1;
+    }
+
+    .property-title {
+      font-weight: bolder;
+      font-size: 12px;
+      padding: 14px 0 14px 0;
+      color: #333333;
+    }
+
+    .property-city {
+      color: #666666;
+      font-size: 12px;
+    }
+
+    .btn-requirement {
+      background: #d5d5d5;
+      color: white;
+      padding: 6px 10px;
+    }
+
+    .price {
+      font-weight: bolder;
+      font-size: 12px;
+    }
+
+    .option-group {
+      border: 1px solid rgba(128, 128, 128, 0.4);
+      border-left: none;
+      height: 34px;
+    }
+
+    .option {
+      border-left: 1px solid rgba(128, 128, 128, 0.4);
+      width: 66px;
+      display: block;
+      text-align: center;
+      height: 100%;
+      float: left;
+      font-size: 7px;
+      line-height: 34px;
+      background: #f5f5f5;
+    }
+
+    .a {
+      margin-top: 16px;
+      border-top: 1px solid rgba(128, 128, 128, 0.4);
+      padding-top: 10px;
+    }
+  }
+
+  .property.first {
+    margin-left: 0;
+  }
+}
+
+#parallax1 {
+  height: 170px;
+
+  .bg {
+    width: 100%;
+    height: 170px;
+    background-image: url("../images/parallax/bg.png");
+    background-size: cover;
   }
 }

@@ -5,6 +5,10 @@ $font-head:    cocogoose;
 $font-style1:    "TH K2D July8";
 $container-width:    1170px;
 $primary-color: #1957a4;
+$shadow-1: 0 1px 1px rgba(0,0,0,0.8);
+
+$break-middle: 1170px;
+$break-small: 1024px;
 
 div, body, section {
   @include box-sizing(border-box);
@@ -18,10 +22,27 @@ html, body {
 .container {
   width: 1170px;
   margin: 0 auto;
+
+  @media (max-width: $break-middle) {
+    width: 1024px;
+  }
+  @media (max-width: $break-small) {
+    width: 1024px;
+  }
 }
 
 .wrap {
   width: 880px;
+  margin: 0 auto;
+}
+
+.wrap3 {
+  width: 706px;
+  margin: 0 auto;
+}
+
+.wrap4 {
+  width: 940px;
   margin: 0 auto;
 }
 
@@ -47,4 +68,12 @@ html, body {
 
 .background-primary {
   background: $primary-color;
+}
+
+.clearfix:after {
+  content: " "; /* Older browser do not support empty content */
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
 }

@@ -1,0 +1,41 @@
+@import "compass/css3";
+
+@include keyframes(zoomIn) {
+  0% {
+    opacity: 0;
+    @include transform(scale3d(.3, .3, .3));
+  }
+
+  50% {
+    opacity: 1;
+    visibility: visible;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@include keyframes(slideInUp){
+  0% {
+    @include transform(translateY(100%));
+    visibility: visible;
+  }
+
+  100% {
+    @include transform(translateY(0));
+    visibility: visible;
+  }
+}
+
+@include keyframes(slideInLeft) {
+  0% {
+    @include transform(translateX(-100%));
+    visibility: visible;
+  }
+
+  100% {
+    @include transform(translateX(0));
+    visibility: visible;
+  }
+}

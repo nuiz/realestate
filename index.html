@@ -345,16 +345,14 @@
 
             var $window = $(window);
             $window.scroll(function(){
-                var y1 = $window.scrollTop();
-                var y2 = window.innerHeight + y1;
-
                 $('.animation-once').each(function(index, el){
                     var $el = $(el);
                     var hT = $el.offset().top,
                             hH = $el.outerHeight(),
                             wH = $window.height(),
                             wS = $window.scrollTop();
-                    if (wS > (hT+hH-wH)){
+                    var pos = (hT+parseInt(hH/3)-wH);
+                    if (wS > pos){
                         $el.removeClass('animation-once');
                     }
                     console.log(wS , (hT+hH-wH));
